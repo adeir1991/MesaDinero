@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace md.Negocio
+namespace md.DAO.subasta
 {
-    public class Class1
+    class md
     {
     }
 }
