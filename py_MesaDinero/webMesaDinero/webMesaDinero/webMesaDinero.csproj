@@ -57,9 +57,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="paginas\subasta\wbf_Subasta.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="paginas\subasta\wbf_Subasta.aspx.cs">
+      <DependentUpon>wbf_Subasta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\subasta\wbf_Subasta.aspx.designer.cs">
+      <DependentUpon>wbf_Subasta.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -83,7 +91,6 @@
   <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="js\" />
-    <Folder Include="paginas\subasta\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
